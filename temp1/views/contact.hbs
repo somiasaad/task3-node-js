@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h2>{{>header}} </h2>
+    {{!-- <h2>{{title}} in hbs padge</h2>
+    <h2>{{desc}} </h2>
+    <h2>name: {{name}}</h2>
+    <h2> age: {{age}}</h2>
+    <h2>city : {{city}} </h2>
+    <img src={{footer}} alt=""> --}}
+    <!-- start contact -->
+    <div class="contact" id="contact">
+        <div class="container">
+            <div class="main-heading">
+                <h2>Contact Us </h2>
+                <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blan dit aliquet elit, eget
+                    tincidunt</p>
+            </div>
+            <div class="content">
+                <form action="">
+                    <input class="main-input" type="text" name="name" placeholder="Your Name">
+                    <input class="main-input" type="email" name="mail" placeholder="Your Email">
+                    <textarea class="main-input" cols="30" rows="10" name="Your Massage"
+                        placeholder="Your Massage"></textarea>
+                    <input type="submit" value="Send Massage">
+                    <div class="icon">
+                        <a href="#landing">
+                            <i class="fas fa-arrow-up"></i>
+                        </a>
+                    </div>
+    
+                </form>
+                <div class="info">
+                    <h4>GET IN TOUCH</h4>
+                    <span class="phone">+00 123.456.789</span>
+                    <span class="phone">+00 123.456.789</span>
+                    <h4>WHERE WE ARE</h4>
+    
+                    <address>
+                        Awesome Address 17 <br> New York, NYC <br>123-4567-890 <br>USA
+                    </address>
+    
+    
+                </div>
+    
+    
+    
+            </div>
+        </div>
+    </div>
+    <!-- end contact -->
+    <h2>{{>footer}} </h2>
+</body>
+
+</html>

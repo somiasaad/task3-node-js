@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <h2>{{>header}} </h2>
+    {{!-- <h2>{{title}} in hbs padge</h2>
+    <h2>{{desc}} </h2> --}}
+    <!-- start landing -->
+    <div class="landing" id="landing">
+        <div class="overlay">
+            <div class="text">
+                <div class="content">
+                    <h2>Hello World! <br /> We Are Kasper We Make Art</h2>
+                    <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
+                        tincidunt nibh
+                        pulvinar a. Curabitur aliquet quam. Accumsan id imperdiet et, porttitor at sem. Mauris blandit
+                        aliquet elit, eget
+                        tincidunt.</p>
+                </div>
+            </div>
+        </div>
+        <i class="fas fa-angle-left change-background fa-2x"></i>
+        <i class="fas fa-angle-right change-background fa-2x"></i>
+        <ul class="bullets">
+            <li></li>
+            <li class="active"></li>
+            <li></li>
+        </ul>
+    
+    
+    </div>
+    <!-- start about -->
+    <div class="about" id="about">
+        <div class="container">
+            <div class="main-heading">
+                <h2>About Us</h2>
+                <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
+                    tincidunt.</p>
+    
+            </div>
+            <img src={{about1}} alt="">
+    
+        </div>
+    
+    
+    </div>
+    <!--  end about -->
+    {{!-- <h2>{{about}} </h2> --}}
+    <h2>{{>footer}} </h2>
+    <!-- end landing -->
+
+</body>
+</html>
